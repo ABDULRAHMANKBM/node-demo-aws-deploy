@@ -6,7 +6,7 @@ const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('AWS EC2 node-demo is running');
+  res.send('AWS EC2 node-demo is running success');
 });
 app.get('/health', (req, res) => {
   res.json({
